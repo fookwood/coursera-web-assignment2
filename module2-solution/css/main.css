@@ -1,11 +1,29 @@
-@media (min-width: 992px) {
+h1{
+    text-align: center;
+}
 
+section{
+    float: left;
+}
+
+@media (min-width: 992px) {
+    .section1, .section2, .section3{
+        width: 33%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .section1, .section2{
+        width: 50%;
+    }
 
+    .section3{
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
-
+    .section1, .section2, .section3{
+        width: 100%;
+    }
 }
