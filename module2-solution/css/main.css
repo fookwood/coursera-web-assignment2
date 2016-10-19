@@ -6,6 +6,10 @@ section{
     float: left;
 }
 
+.right-top{
+    position: relative;
+}
+
 @media (min-width: 992px) {
     .section1, .section2, .section3{
         width: 33%;
